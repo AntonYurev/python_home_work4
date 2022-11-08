@@ -41,6 +41,31 @@
 #     j = i+1
 # print('Новый список: ', a)
 
+# Задана натуральная степень k. Сформировать случайным образом список коэффициентов 
+# (значения от 0 до 100) многочлена и записать в файл многочлен степени k.
+# import random
+# k = int(input('Введите степень многочлена: '))
+# def f(x):
+#     return random.randint(0,100)
+
+# a = [f(i) for i in range(k+1)]
+# s = ''
+# for i in range (k-1):
+#     if a[i] != 0:
+#         s = s + str(a[i]) + 'x**' + str(k-i) + ' + '
+# if a[k-1] == 0 and a[k] == 0:
+#     s = s + ' = 0'
+# elif a[k-1] == 0 and a[k] !=0:
+#     s = s + str(a[k]) + ' =0'
+# elif a[k-1] !=0 and a[k] == 0:
+#     s = s + str(a[k-1]) + 'x ' + ' = 0'
+# else :
+#     s = s + str(a[k-1]) + 'x ' + '+ ' + str(a[k]) + ' = 0'  
+# f1 = open('newfile.txt', 'w')
+# f1.write(s)
+# f1.close()
+
+
     
 
 
